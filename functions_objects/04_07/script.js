@@ -28,14 +28,16 @@
 
 
 function logScope() {
-    var localVar = 2;
+    let localVar = 2;
 
     if (localVar) {
-        var localVar = "I'm different!";
+        let localVar = "I'm different!";
         console.log("nested: ", localVar)
     }
 
     console.log("logScope local: ", localVar);
 }
 
-logScope()
+// When we use let the function becomes the scope. Note that var/let in the example above can be interchangable on either one, not both. 
+
+logScope();

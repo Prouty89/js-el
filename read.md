@@ -77,4 +77,18 @@ XOR: either a or b, but not both are true (NESTING LOGICAL OPERATORS)
 
 - Create a result immediately, or provide an answer or output (return) to be used by other pieces of our application.
 
+## On OOP
+
+- JS objects: Data models that allow us to combine methods and properties for a specific data set in a structured way.
+
+
+## Dot Notation vs Bracket Notation
+
+- course.title      course["title"]
+- Bracket notation is good for when you have to access a property, converting it into a string. 
+
+## Closures
+
+- 
+
 
