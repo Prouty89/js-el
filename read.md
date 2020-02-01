@@ -115,5 +115,17 @@ XOR: either a or b, but not both are true (NESTING LOGICAL OPERATORS)
 - MDN event Reference
 
 
+## Loops
 
+- some condition, as long as it holds keep running the loop
+- classic condition:
 
+    ```js
+    for ( var i = 0; i < 10; i++) {
+        console.log(i)
+    }
+    ```
+    - will print 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+
+    - for loop assumes you know how many times it will run
+    - while loop will wait til a condition is met. (more advanced)
