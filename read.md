@@ -87,8 +87,33 @@ XOR: either a or b, but not both are true (NESTING LOGICAL OPERATORS)
 - course.title      course["title"]
 - Bracket notation is good for when you have to access a property, converting it into a string. 
 
-## Closures
 
-- 
+## Everything is an object
+
+- Browser is an object
+- The document within the window is an object
+- Browser object model. 
+- window is the top level object in the browser object model. 
+
+- Document lives within the window, where JS exists. Document Object Model. 
+- Each HTML object has opening closing tags, representing a node. 
+- Node tree models the relationships between different nodes. 
+
+
+## Events
+
+- Every interaction within the browser is an event (mouse move, opening, etc.)
+
+### Event Handling Formula
+
+- Identify dom node (call to action)
+- Identify event (onClick) and bind it to the dom node
+- Create function that is handled when the event fires 
+
+- Browser-level events
+- DOM level events
+- MDN event Reference
+
+
 
 
